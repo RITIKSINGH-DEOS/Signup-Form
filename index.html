@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Form</title>
+</head>
+
+<body>
+
+    <section class="main-container">
+        <section class="left-container">
+            <article>
+                <h1> Learn to code by watching others</h1>
+                <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                    but understanding how developers think is invaluable.</p>
+            </article>
+
+        </section>
+        <section class="right-container">
+            <p class="try"> Try it free 7 days then $20/mo. thereafter</p>
+            <section class="input-container">
+                <div class="input-form">
+                    <div class="first">
+                        <input type="text" placeholder="First Name" class="first-name">
+                        <img class="error-icon hidden" src="./images/icon-error.svg" alt="icon-error">
+                    </div>
+                    <P class="err-msg hidden">First Name cannot be empty</P>
+                    <div class="last">
+                        <input type="text" placeholder="Last Name" class="last-name">
+                        <img class="error-icon hidden" src="./images/icon-error.svg" alt="icon-error">
+                    </div>
+                    <p class="err-msg hidden">Last Name cannot be empty</p>
+                    <div class="email-input">
+                        <input type="email" placeholder="Email Address" class="email">
+                        <p class="email-error-msg hidden">email@example/com</p>
+                        <img class="error-icon hidden" src="./images/icon-error.svg" alt="icon-error">
+                    </div>
+                    <p class="err-msg hidden">Looks like this is not an email</p>
+                    <div class="password-input">
+                        <input type="password" placeholder="Password" class="password">
+                        <img class="error-icon hidden" src="./images/icon-error.svg" alt="icon-error">
+                    </div>
+                    <p class="err-msg hidden">Password cannot be empty</p>
+                    <button>
+                        <p> CLAIM YOUR FREE TRAIL</p>
+                    </button>
+                    <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
